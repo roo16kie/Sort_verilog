@@ -24,7 +24,7 @@ sort1 sort(.no1(no1),
 always begin #(`CYCLE/2) clk=~clk ; end  //clock generation
 
 initial begin
-$readmemb("ans.txt",ans);
+$readmemb("ans1.txt",ans);
 end
 
 initial
