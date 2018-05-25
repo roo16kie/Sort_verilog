@@ -24,7 +24,7 @@ pplsort sort(.no1(no1),
 always begin #(`CYCLE/2) clk=~clk ; end  //clock generation
 
 initial begin
-$readmemb("ans.txt",ans);
+$readmemb("ans3.txt",ans);
 end
 
 initial
